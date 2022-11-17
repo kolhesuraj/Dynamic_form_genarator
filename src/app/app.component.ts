@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
   addToForm(form: NgForm) {
     this.submitted = true;
     let value: any = form.value;
-    console.log();
     let final;
     let valid: Boolean = false;
     if (value.name == '' || value.type == '') {
